@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             string name = Console.ReadLine();
-            int age = int.Parse(Console.ReadLine());
+            bool _ = int.TryParse(Console.ReadLine(), out int age);
             Console.WriteLine($"Hello {name}, Your Age Is: {age}");
         }
     }
